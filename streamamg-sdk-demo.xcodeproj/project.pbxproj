@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020A2BB02A165AF400ABC1C3 /* streamamg_sdk_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020A2BAF2A165AF400ABC1C3 /* streamamg_sdk_demoApp.swift */; };
+		020A2BB22A165AF400ABC1C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020A2BB12A165AF400ABC1C3 /* ContentView.swift */; };
+		020A2BB42A165AF400ABC1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020A2BB32A165AF400ABC1C3 /* Assets.xcassets */; };
+		020A2BB82A165AF400ABC1C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020A2BB72A165AF400ABC1C3 /* Preview Assets.xcassets */; };
+		029E71FC2A1B9B4D0027B05D /* AMGPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E71FB2A1B9B4D0027B05D /* AMGPlayerView.swift */; };
+		61621F32B3DB726AA970652F /* Pods_streamamg_sdk_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3B08B6B1695A94197123AD /* Pods_streamamg_sdk_demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		020A2BAC2A165AF400ABC1C3 /* streamamg-sdk-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "streamamg-sdk-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		020A2BAF2A165AF400ABC1C3 /* streamamg_sdk_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = streamamg_sdk_demoApp.swift; sourceTree = "<group>"; };
+		020A2BB12A165AF400ABC1C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		020A2BB32A165AF400ABC1C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		020A2BB52A165AF400ABC1C3 /* streamamg_sdk_demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = streamamg_sdk_demo.entitlements; sourceTree = "<group>"; };
+		020A2BB72A165AF400ABC1C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		029E71F92A1B98FC0027B05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		029E71FB2A1B9B4D0027B05D /* AMGPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMGPlayerView.swift; sourceTree = "<group>"; };
+		0D3B08B6B1695A94197123AD /* Pods_streamamg_sdk_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_streamamg_sdk_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A54724A7F547EA661E5474 /* Pods-streamamg-sdk-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamamg-sdk-demo.release.xcconfig"; path = "Target Support Files/Pods-streamamg-sdk-demo/Pods-streamamg-sdk-demo.release.xcconfig"; sourceTree = "<group>"; };
+		EC364D1E73D7303D9CF31072 /* Pods-streamamg-sdk-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamamg-sdk-demo.debug.xcconfig"; path = "Target Support Files/Pods-streamamg-sdk-demo/Pods-streamamg-sdk-demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		020A2BA92A165AF400ABC1C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61621F32B3DB726AA970652F /* Pods_streamamg_sdk_demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020A2BA32A165AF300ABC1C3 = {
+			isa = PBXGroup;
+			children = (
+				020A2BAE2A165AF400ABC1C3 /* streamamg-sdk-demo */,
+				020A2BAD2A165AF400ABC1C3 /* Products */,
+				315CA459B1CFBD036C23DE5F /* Pods */,
+				0F823533FC12EC004956575E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		020A2BAD2A165AF400ABC1C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				020A2BAC2A165AF400ABC1C3 /* streamamg-sdk-demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		020A2BAE2A165AF400ABC1C3 /* streamamg-sdk-demo */ = {
+			isa = PBXGroup;
+			children = (
+				029E71FA2A1B9B3A0027B05D /* UI components */,
+				029E71F92A1B98FC0027B05D /* Info.plist */,
+				020A2BAF2A165AF400ABC1C3 /* streamamg_sdk_demoApp.swift */,
+				020A2BB32A165AF400ABC1C3 /* Assets.xcassets */,
+				020A2BB52A165AF400ABC1C3 /* streamamg_sdk_demo.entitlements */,
+				020A2BB62A165AF400ABC1C3 /* Preview Content */,
+			);
+			path = "streamamg-sdk-demo";
+			sourceTree = "<group>";
+		};
+		020A2BB62A165AF400ABC1C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				020A2BB72A165AF400ABC1C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		029E71FA2A1B9B3A0027B05D /* UI components */ = {
+			isa = PBXGroup;
+			children = (
+				020A2BB12A165AF400ABC1C3 /* ContentView.swift */,
+				029E71FB2A1B9B4D0027B05D /* AMGPlayerView.swift */,
+			);
+			path = "UI components";
+			sourceTree = "<group>";
+		};
+		0F823533FC12EC004956575E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D3B08B6B1695A94197123AD /* Pods_streamamg_sdk_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		315CA459B1CFBD036C23DE5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC364D1E73D7303D9CF31072 /* Pods-streamamg-sdk-demo.debug.xcconfig */,
+				B6A54724A7F547EA661E5474 /* Pods-streamamg-sdk-demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		020A2BAB2A165AF400ABC1C3 /* streamamg-sdk-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020A2BBB2A165AF400ABC1C3 /* Build configuration list for PBXNativeTarget "streamamg-sdk-demo" */;
+			buildPhases = (
+				BFC0522B3852CC03F305CCE4 /* [CP] Check Pods Manifest.lock */,
+				020A2BA82A165AF400ABC1C3 /* Sources */,
+				020A2BA92A165AF400ABC1C3 /* Frameworks */,
+				020A2BAA2A165AF400ABC1C3 /* Resources */,
+				AEAEEF8BAC106F127F97E137 /* [CP] Embed Pods Frameworks */,
+				E61FE7412CD1371EB390CB52 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "streamamg-sdk-demo";
+			productName = "streamamg-sdk-demo";
+			productReference = 020A2BAC2A165AF400ABC1C3 /* streamamg-sdk-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		020A2BA42A165AF300ABC1C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					020A2BAB2A165AF400ABC1C3 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 020A2BA72A165AF300ABC1C3 /* Build configuration list for PBXProject "streamamg-sdk-demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 020A2BA32A165AF300ABC1C3;
+			productRefGroup = 020A2BAD2A165AF400ABC1C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				020A2BAB2A165AF400ABC1C3 /* streamamg-sdk-demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		020A2BAA2A165AF400ABC1C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020A2BB82A165AF400ABC1C3 /* Preview Assets.xcassets in Resources */,
+				020A2BB42A165AF400ABC1C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AEAEEF8BAC106F127F97E137 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-streamamg-sdk-demo/Pods-streamamg-sdk-demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-streamamg-sdk-demo/Pods-streamamg-sdk-demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-streamamg-sdk-demo/Pods-streamamg-sdk-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFC0522B3852CC03F305CCE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-streamamg-sdk-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E61FE7412CD1371EB390CB52 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-streamamg-sdk-demo/Pods-streamamg-sdk-demo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-streamamg-sdk-demo/Pods-streamamg-sdk-demo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-streamamg-sdk-demo/Pods-streamamg-sdk-demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		020A2BA82A165AF400ABC1C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020A2BB22A165AF400ABC1C3 /* ContentView.swift in Sources */,
+				020A2BB02A165AF400ABC1C3 /* streamamg_sdk_demoApp.swift in Sources */,
+				029E71FC2A1B9B4D0027B05D /* AMGPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		020A2BB92A165AF400ABC1C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		020A2BBA2A165AF400ABC1C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		020A2BBC2A165AF400ABC1C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC364D1E73D7303D9CF31072 /* Pods-streamamg-sdk-demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "streamamg-sdk-demo/streamamg_sdk_demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"streamamg-sdk-demo/Preview Content\"";
+				DEVELOPMENT_TEAM = W42F3L99V9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "streamamg-sdk-demo/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.streamamg.demo.streamamg-sdk-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		020A2BBD2A165AF400ABC1C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A54724A7F547EA661E5474 /* Pods-streamamg-sdk-demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "streamamg-sdk-demo/streamamg_sdk_demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"streamamg-sdk-demo/Preview Content\"";
+				DEVELOPMENT_TEAM = W42F3L99V9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "streamamg-sdk-demo/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.streamamg.demo.streamamg-sdk-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020A2BA72A165AF300ABC1C3 /* Build configuration list for PBXProject "streamamg-sdk-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020A2BB92A165AF400ABC1C3 /* Debug */,
+				020A2BBA2A165AF400ABC1C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020A2BBB2A165AF400ABC1C3 /* Build configuration list for PBXNativeTarget "streamamg-sdk-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020A2BBC2A165AF400ABC1C3 /* Debug */,
+				020A2BBD2A165AF400ABC1C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 020A2BA42A165AF300ABC1C3 /* Project object */;
+}

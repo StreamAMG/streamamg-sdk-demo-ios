@@ -1,0 +1,128 @@
+PODS:
+  - DownloadToGo (3.18.0):
+    - GCDWebServer (~> 3.5.4)
+    - M3U8Kit (= 1.0.0)
+    - PlayKitUtils (~> 0.5)
+    - Realm (~> 10.32.0)
+    - RealmSwift (~> 10.32.0)
+    - XCGLogger (~> 7.0.0)
+  - GCDWebServer (3.5.4):
+    - GCDWebServer/Core (= 3.5.4)
+  - GCDWebServer/Core (3.5.4)
+  - GoogleAds-IMA-iOS-SDK (3.18.1)
+  - KalturaNetKit (1.5.1):
+    - KalturaNetKit/Core (= 1.5.1)
+  - KalturaNetKit/Core (1.5.1):
+    - SwiftyJSON (= 5.0.0)
+  - M3U8Kit (1.0.0)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - PlayKit (3.27.0):
+    - PlayKit/Core (= 3.27.0)
+  - PlayKit/AnalyticsCommon (3.27.0):
+    - PlayKit/Core
+  - PlayKit/Core (3.27.0):
+    - KalturaNetKit (~> 1.5.1)
+    - PlayKitUtils (~> 0.5)
+    - SwiftyJSON (= 5.0.0)
+    - XCGLogger (= 7.0.0)
+  - PlayKit_IMA (1.14.0):
+    - GoogleAds-IMA-iOS-SDK (= 3.18.1)
+    - GoogleAds-IMA-tvOS-SDK (= 4.6.1)
+    - PlayKit (~> 3.22)
+  - PlayKitProviders (1.18.0):
+    - KalturaNetKit (~> 1.5)
+    - PlayKit/AnalyticsCommon (~> 3.27)
+    - PlayKitUtils (~> 0.5)
+    - SwiftyXMLParser (= 5.0.0)
+  - PlayKitUtils (0.5.1)
+  - PlayKitYoubora (1.15.0):
+    - PlayKit/AnalyticsCommon (~> 3.27)
+    - YouboraLib (= 6.6.25)
+  - Realm (10.32.3):
+    - Realm/Headers (= 10.32.3)
+  - Realm/Headers (10.32.3)
+  - RealmSwift (10.32.3):
+    - Realm (= 10.32.3)
+  - StreamAMGSDK (1.2.2):
+    - StreamAMGSDK/Authentication (= 1.2.2)
+    - StreamAMGSDK/CloudMatrix (= 1.2.2)
+    - StreamAMGSDK/Core (= 1.2.2)
+    - StreamAMGSDK/PlayKit (= 1.2.2)
+    - StreamAMGSDK/PlayKit2Go (= 1.2.2)
+    - StreamAMGSDK/Purchases (= 1.2.2)
+    - StreamAMGSDK/StreamPlay (= 1.2.2)
+  - StreamAMGSDK/Authentication (1.2.2):
+    - StreamAMGSDK/Core
+  - StreamAMGSDK/CloudMatrix (1.2.2):
+    - StreamAMGSDK/Core
+  - StreamAMGSDK/Core (1.2.2)
+  - StreamAMGSDK/PlayKit (1.2.2):
+    - PlayKit (= 3.27.0)
+    - PlayKit_IMA (= 1.14.0)
+    - PlayKitProviders (= 1.18.0)
+    - PlayKitYoubora (= 1.15.0)
+  - StreamAMGSDK/PlayKit2Go (1.2.2):
+    - DownloadToGo (= 3.18.0)
+    - StreamAMGSDK/PlayKit
+  - StreamAMGSDK/Purchases (1.2.2):
+    - StreamAMGSDK/Authentication
+    - StreamAMGSDK/Core
+  - StreamAMGSDK/StreamPlay (1.2.2):
+    - StreamAMGSDK/Core
+  - SwiftyJSON (5.0.0)
+  - SwiftyXMLParser (5.0.0)
+  - XCGLogger (7.0.0):
+    - XCGLogger/Core (= 7.0.0)
+  - XCGLogger/Core (7.0.0):
+    - ObjcExceptionBridging
+  - YouboraLib (6.6.25)
+
+DEPENDENCIES:
+  - StreamAMGSDK (~> 1.2.0)
+
+SPEC REPOS:
+  trunk:
+    - DownloadToGo
+    - GCDWebServer
+    - GoogleAds-IMA-iOS-SDK
+    - KalturaNetKit
+    - M3U8Kit
+    - ObjcExceptionBridging
+    - PlayKit
+    - PlayKit_IMA
+    - PlayKitProviders
+    - PlayKitUtils
+    - PlayKitYoubora
+    - Realm
+    - RealmSwift
+    - StreamAMGSDK
+    - SwiftyJSON
+    - SwiftyXMLParser
+    - XCGLogger
+    - YouboraLib
+
+SPEC CHECKSUMS:
+  DownloadToGo: 4a40b914acf3691c0dddcd6d8896533e20f50e0a
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
+  GoogleAds-IMA-iOS-SDK: 54941bbcc0fc7408ad5ee13e4347343604927eea
+  KalturaNetKit: 8774fdc2e73d3d013c3df88aa49376dd922d3606
+  M3U8Kit: bfd8b437d48632cdbc8e7a21cb25fde295b2f863
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  PlayKit: fa104ddf19b0894f0c395d0837e1c8f0650bec8e
+  PlayKit_IMA: b7a37ba5474f3397f9c0880e7105fed72c21bc02
+  PlayKitProviders: 5dc0b4abd2c278b62146c6f9b51cdb2746bf3d17
+  PlayKitUtils: 4a11aef6488e778d10b774702ba79dd0cfa0ef11
+  PlayKitYoubora: 2784003d0e0934ea53a0bbf34a12cf7a928bd63d
+  Realm: fdf6732924dc5e69e30e0db2c11e869f92b53f3d
+  RealmSwift: 7c181da8fa1c2fe613656a77c198d6a3dc3879a1
+  StreamAMGSDK: 99faef3c3c0ef10a95bfc6ceb90516186ff5b83e
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  SwiftyXMLParser: 5ebb8793192f403fa8cc691045143906122a7a75
+  XCGLogger: 0434f15e3909cdc450bb63faf638b8792ab782ab
+  YouboraLib: 6ee57250e24a2f88a12c5685f5b57ce641fea851
+
+PODFILE CHECKSUM: 58547153eb90cf3d5c6bb878c02aa2689a503d1d
+
+COCOAPODS: 1.11.3
