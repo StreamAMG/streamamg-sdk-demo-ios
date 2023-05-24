@@ -12,6 +12,10 @@
 		020A2BB42A165AF400ABC1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020A2BB32A165AF400ABC1C3 /* Assets.xcassets */; };
 		020A2BB82A165AF400ABC1C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020A2BB72A165AF400ABC1C3 /* Preview Assets.xcassets */; };
 		029E71FC2A1B9B4D0027B05D /* AMGPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E71FB2A1B9B4D0027B05D /* AMGPlayerView.swift */; };
+		029E72002A1BA83B0027B05D /* CustomFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E71FF2A1BA83B0027B05D /* CustomFields.swift */; };
+		029E72032A1BACB70027B05D /* DemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E72022A1BACB70027B05D /* DemoModel.swift */; };
+		029E72052A1BACE40027B05D /* Demos.json in Resources */ = {isa = PBXBuildFile; fileRef = 029E72042A1BACE40027B05D /* Demos.json */; };
+		029E72072A1BAD530027B05D /* DemoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E72062A1BAD530027B05D /* DemoListView.swift */; };
 		61621F32B3DB726AA970652F /* Pods_streamamg_sdk_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3B08B6B1695A94197123AD /* Pods_streamamg_sdk_demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +28,10 @@
 		020A2BB72A165AF400ABC1C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		029E71F92A1B98FC0027B05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		029E71FB2A1B9B4D0027B05D /* AMGPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMGPlayerView.swift; sourceTree = "<group>"; };
+		029E71FF2A1BA83B0027B05D /* CustomFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFields.swift; sourceTree = "<group>"; };
+		029E72022A1BACB70027B05D /* DemoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoModel.swift; sourceTree = "<group>"; };
+		029E72042A1BACE40027B05D /* Demos.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Demos.json; sourceTree = "<group>"; };
+		029E72062A1BAD530027B05D /* DemoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoListView.swift; sourceTree = "<group>"; };
 		0D3B08B6B1695A94197123AD /* Pods_streamamg_sdk_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_streamamg_sdk_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A54724A7F547EA661E5474 /* Pods-streamamg-sdk-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamamg-sdk-demo.release.xcconfig"; path = "Target Support Files/Pods-streamamg-sdk-demo/Pods-streamamg-sdk-demo.release.xcconfig"; sourceTree = "<group>"; };
 		EC364D1E73D7303D9CF31072 /* Pods-streamamg-sdk-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamamg-sdk-demo.debug.xcconfig"; path = "Target Support Files/Pods-streamamg-sdk-demo/Pods-streamamg-sdk-demo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +70,8 @@
 		020A2BAE2A165AF400ABC1C3 /* streamamg-sdk-demo */ = {
 			isa = PBXGroup;
 			children = (
+				029E72042A1BACE40027B05D /* Demos.json */,
+				029E72012A1BA8400027B05D /* Model */,
 				029E71FA2A1B9B3A0027B05D /* UI components */,
 				029E71F92A1B98FC0027B05D /* Info.plist */,
 				020A2BAF2A165AF400ABC1C3 /* streamamg_sdk_demoApp.swift */,
@@ -83,10 +93,20 @@
 		029E71FA2A1B9B3A0027B05D /* UI components */ = {
 			isa = PBXGroup;
 			children = (
+				029E71FF2A1BA83B0027B05D /* CustomFields.swift */,
 				020A2BB12A165AF400ABC1C3 /* ContentView.swift */,
 				029E71FB2A1B9B4D0027B05D /* AMGPlayerView.swift */,
+				029E72062A1BAD530027B05D /* DemoListView.swift */,
 			);
 			path = "UI components";
+			sourceTree = "<group>";
+		};
+		029E72012A1BA8400027B05D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				029E72022A1BACB70027B05D /* DemoModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		0F823533FC12EC004956575E /* Frameworks */ = {
@@ -167,6 +187,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				029E72052A1BACE40027B05D /* Demos.json in Resources */,
 				020A2BB82A165AF400ABC1C3 /* Preview Assets.xcassets in Resources */,
 				020A2BB42A165AF400ABC1C3 /* Assets.xcassets in Resources */,
 			);
@@ -241,6 +262,9 @@
 				020A2BB22A165AF400ABC1C3 /* ContentView.swift in Sources */,
 				020A2BB02A165AF400ABC1C3 /* streamamg_sdk_demoApp.swift in Sources */,
 				029E71FC2A1B9B4D0027B05D /* AMGPlayerView.swift in Sources */,
+				029E72002A1BA83B0027B05D /* CustomFields.swift in Sources */,
+				029E72032A1BACB70027B05D /* DemoModel.swift in Sources */,
+				029E72072A1BAD530027B05D /* DemoListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

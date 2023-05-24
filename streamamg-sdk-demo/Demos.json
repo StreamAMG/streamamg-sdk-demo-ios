@@ -1,0 +1,131 @@
+[
+    {
+        "mediaTitle": "This is my snooker cue",
+        "serverURL": "https://open.http.mp.streamamg.com",
+        "partnerID": 3001403,
+        "uiConfID": 30029264,
+        "entryID": "0_t9jf5rk6",
+        "mediaType": 2
+    },
+    {
+        "mediaTitle": "First time since the Crucible",
+        "serverURL": "https://open.http.mp.streamamg.com",
+        "partnerID": 3001403,
+        "uiConfID": 30029264,
+        "entryID": "0_1rgos9j6",
+        "mediaType": 2
+    },
+    {
+        "mediaTitle": "PGA Tour thing",
+        "serverURL": "https://open.http.mp.streamamg.com",
+        "partnerID": 3001403,
+        "uiConfID": 30029264,
+        "entryID": "0_271ahay0",
+        "mediaType": 2
+    },
+    {
+        "mediaTitle": "Closest to the line",
+        "serverURL": "https://open.http.mp.streamamg.com",
+        "partnerID": 3001403,
+        "uiConfID": 30029264,
+        "entryID": "0_gmta52ug",
+        "mediaType": 2
+    },
+    {
+        "mediaTitle": "KS - 0_ce2k66kk",
+        "serverURL": "https://open.http.mp.streamamg.com",
+        "partnerID": 2000538,
+        "uiConfID": 30026708,
+        "entryID": "0_ce2k66kk",
+        "ks": "",
+        "mediaType": 2
+    },
+    {
+        "mediaTitle": "KS - 0_4z5khrta",
+        "serverURL": "https://open.http.mp.streamamg.com",
+        "partnerID": 3001403,
+        "uiConfID": 30029264,
+        "entryID": "0_4z5khrta",
+        "mediaType": 2
+    },
+    {
+        "mediaTitle": "That Fulham guy",
+        "serverURL": "https://mp.streamamg.com",
+        "partnerID": 3001133,
+        "uiConfID": 30027349,
+        "entryID": "0_9fcwzpij",
+        "ks": null,
+        "mediaType": 2
+    },
+    {
+        "mediaTitle": "TennisTV Low Quality TEST",
+        "serverURL": "https://open.http.mp.streamamg.com",
+        "partnerID": 3001482,
+        "uiConfID": 30031229,
+        "entryID": "0_qztorhob",
+        "mediaType": 2
+    },
+    {
+        "mediaTitle": "TennisTV Live video test",
+        "serverURL": "https://open.http.mp.streamamg.com",
+        "partnerID": 3001482,
+        "uiConfID": 30031229,
+        "entryID": "0_039fcbnn",
+        "mediaType": 1
+    },
+    {
+        "mediaTitle": "TennisTV Live video test 2",
+        "serverURL": "https://open.http.mp.streamamg.com",
+        "partnerID": 3001482,
+        "uiConfID": 30029563,
+        "entryID": "0_rfieqrtm",
+        "mediaType": 1
+    },
+    {
+        "mediaTitle": "Subtitle test (staging)",
+        "serverURL": "https://open.http.mp.streamamg.com",
+        "partnerID": 3001478,
+        "uiConfID": 30031229,
+        "entryID": "0_t3x0b3k8",
+        "ks": null,
+        "mediaType": 2
+    },
+    {
+        "mediaTitle": "Test Duplicates + no Label (staging)",
+        "serverURL": "https://open.http.mp.streamamg.com",
+        "partnerID": 3001478,
+        "uiConfID": 30031229,
+        "entryID": "0_ykugvavu",
+        "ks": null,
+        "mediaType": 2
+    },
+    {
+        "mediaTitle": "Subtitle test",
+        "serverURL": "https://open.http.mp.streamamg.com",
+        "partnerID": 2000538,
+        "uiConfID": 30031220,
+        "entryID": "0_whx96g4q",
+        "ks": null,
+        "mediaType": 2
+    },
+    {
+        "mediaTitle": "Subtitle test 2",
+        "serverURL": "https://open.http.mp.streamamg.com",
+        "partnerID": 2000538,
+        "uiConfID": 30031220,
+        "entryID": "0_ce2k66kk",
+        "ks": null,
+        "mediaType": 2
+    },
+    {
+        "mediaTitle": "Multi audio custom label TEST",
+        "serverURL": "https://open.http.mp.streamamg.com",
+        "partnerID": 3001302,
+        "uiConfID": 30031220,
+        "entryID": "0_tf7x23lh",
+        "ks": null,
+        "mediaType": 2
+    },
+]
+ 
+ 

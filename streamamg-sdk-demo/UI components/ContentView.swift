@@ -10,9 +10,24 @@ import StreamAMGSDK
 
 struct ContentView: View {
     var body: some View {
-        // Other views or components
-        AMGPlayerView()
-            .aspectRatio(16/9, contentMode: .fit)
+        NavigationView {
+            
+          TabView {
+            // DemoListView
+              DemoListView()
+              .tabItem {
+                Image(systemName: "video")
+                Text("LIVE")
+              }
+          }
+          .tabViewStyle(.automatic)
+          .navigationBarTitle("StreamAMG Demo")
+          .navigationBarItems(trailing:
+            NavigationLink(destination: CustomFieldsView()) {
+              Image(systemName: "gear")
+            }
+          )
+        }
     }
 }
 
@@ -21,3 +36,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
