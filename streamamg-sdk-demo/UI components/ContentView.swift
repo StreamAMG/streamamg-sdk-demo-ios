@@ -10,7 +10,6 @@ import StreamAMGSDK
 
 struct ContentView: View {
     var body: some View {
-        // Other views or components
         AMGPlayerView()
             .aspectRatio(16/9, contentMode: .fit)
     }

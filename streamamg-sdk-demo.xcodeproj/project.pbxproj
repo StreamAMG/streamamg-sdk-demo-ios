@@ -12,6 +12,7 @@
 		020A2BB42A165AF400ABC1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020A2BB32A165AF400ABC1C3 /* Assets.xcassets */; };
 		020A2BB82A165AF400ABC1C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020A2BB72A165AF400ABC1C3 /* Preview Assets.xcassets */; };
 		029E71FC2A1B9B4D0027B05D /* AMGPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E71FB2A1B9B4D0027B05D /* AMGPlayerView.swift */; };
+		02D76C7D2A653CC300EB1F3E /* AMGPlayerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D76C7C2A653CC300EB1F3E /* AMGPlayerRepresentable.swift */; };
 		61621F32B3DB726AA970652F /* Pods_streamamg_sdk_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3B08B6B1695A94197123AD /* Pods_streamamg_sdk_demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		020A2BB72A165AF400ABC1C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		029E71F92A1B98FC0027B05D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		029E71FB2A1B9B4D0027B05D /* AMGPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMGPlayerView.swift; sourceTree = "<group>"; };
+		02D76C7C2A653CC300EB1F3E /* AMGPlayerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMGPlayerRepresentable.swift; sourceTree = "<group>"; };
 		0D3B08B6B1695A94197123AD /* Pods_streamamg_sdk_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_streamamg_sdk_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A54724A7F547EA661E5474 /* Pods-streamamg-sdk-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamamg-sdk-demo.release.xcconfig"; path = "Target Support Files/Pods-streamamg-sdk-demo/Pods-streamamg-sdk-demo.release.xcconfig"; sourceTree = "<group>"; };
 		EC364D1E73D7303D9CF31072 /* Pods-streamamg-sdk-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streamamg-sdk-demo.debug.xcconfig"; path = "Target Support Files/Pods-streamamg-sdk-demo/Pods-streamamg-sdk-demo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				020A2BB12A165AF400ABC1C3 /* ContentView.swift */,
 				029E71FB2A1B9B4D0027B05D /* AMGPlayerView.swift */,
+				02D76C7C2A653CC300EB1F3E /* AMGPlayerRepresentable.swift */,
 			);
 			path = "UI components";
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				020A2BB22A165AF400ABC1C3 /* ContentView.swift in Sources */,
+				02D76C7D2A653CC300EB1F3E /* AMGPlayerRepresentable.swift in Sources */,
 				020A2BB02A165AF400ABC1C3 /* streamamg_sdk_demoApp.swift in Sources */,
 				029E71FC2A1B9B4D0027B05D /* AMGPlayerView.swift in Sources */,
 			);

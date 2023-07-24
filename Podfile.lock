@@ -45,31 +45,31 @@ PODS:
   - Realm/Headers (10.32.3)
   - RealmSwift (10.32.3):
     - Realm (= 10.32.3)
-  - StreamAMGSDK (1.2.2):
-    - StreamAMGSDK/Authentication (= 1.2.2)
-    - StreamAMGSDK/CloudMatrix (= 1.2.2)
-    - StreamAMGSDK/Core (= 1.2.2)
-    - StreamAMGSDK/PlayKit (= 1.2.2)
-    - StreamAMGSDK/PlayKit2Go (= 1.2.2)
-    - StreamAMGSDK/Purchases (= 1.2.2)
-    - StreamAMGSDK/StreamPlay (= 1.2.2)
-  - StreamAMGSDK/Authentication (1.2.2):
+  - StreamAMGSDK (1.2.4):
+    - StreamAMGSDK/Authentication (= 1.2.4)
+    - StreamAMGSDK/CloudMatrix (= 1.2.4)
+    - StreamAMGSDK/Core (= 1.2.4)
+    - StreamAMGSDK/PlayKit (= 1.2.4)
+    - StreamAMGSDK/PlayKit2Go (= 1.2.4)
+    - StreamAMGSDK/Purchases (= 1.2.4)
+    - StreamAMGSDK/StreamPlay (= 1.2.4)
+  - StreamAMGSDK/Authentication (1.2.4):
     - StreamAMGSDK/Core
-  - StreamAMGSDK/CloudMatrix (1.2.2):
+  - StreamAMGSDK/CloudMatrix (1.2.4):
     - StreamAMGSDK/Core
-  - StreamAMGSDK/Core (1.2.2)
-  - StreamAMGSDK/PlayKit (1.2.2):
+  - StreamAMGSDK/Core (1.2.4)
+  - StreamAMGSDK/PlayKit (1.2.4):
     - PlayKit (= 3.27.0)
     - PlayKit_IMA (= 1.14.0)
     - PlayKitProviders (= 1.18.0)
     - PlayKitYoubora (= 1.15.0)
-  - StreamAMGSDK/PlayKit2Go (1.2.2):
+  - StreamAMGSDK/PlayKit2Go (1.2.4):
     - DownloadToGo (= 3.18.0)
     - StreamAMGSDK/PlayKit
-  - StreamAMGSDK/Purchases (1.2.2):
+  - StreamAMGSDK/Purchases (1.2.4):
     - StreamAMGSDK/Authentication
     - StreamAMGSDK/Core
-  - StreamAMGSDK/StreamPlay (1.2.2):
+  - StreamAMGSDK/StreamPlay (1.2.4):
     - StreamAMGSDK/Core
   - SwiftyJSON (5.0.0)
   - SwiftyXMLParser (5.0.0)
@@ -117,7 +117,7 @@ SPEC CHECKSUMS:
   PlayKitYoubora: 2784003d0e0934ea53a0bbf34a12cf7a928bd63d
   Realm: fdf6732924dc5e69e30e0db2c11e869f92b53f3d
   RealmSwift: 7c181da8fa1c2fe613656a77c198d6a3dc3879a1
-  StreamAMGSDK: 99faef3c3c0ef10a95bfc6ceb90516186ff5b83e
+  StreamAMGSDK: b8a43e64dc58039aca7cb6afde3c4ac1fb601b59
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   SwiftyXMLParser: 5ebb8793192f403fa8cc691045143906122a7a75
   XCGLogger: 0434f15e3909cdc450bb63faf638b8792ab782ab
@@ -125,4 +125,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 58547153eb90cf3d5c6bb878c02aa2689a503d1d
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1
